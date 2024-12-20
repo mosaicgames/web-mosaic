@@ -8,7 +8,7 @@ import { usePathname } from "next/navigation";
 
 const Navbar = () => {
   const pathname = usePathname(); // Aktif URL'yi al
-  console.log(pathname)
+  console.log("path name: "+pathname)
 
   return (
     <nav className=" flexBetween max-container padding-container relative z-30 py-5">
